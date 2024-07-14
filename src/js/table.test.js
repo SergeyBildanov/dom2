@@ -1,11 +1,6 @@
-import demo from "./app";
+import Table from "./table";
 
-describe("Пример теста", () => {
-  test.each([
-    { str: "Hello!", expected: "Demo: Hello!" },
-    { str: "", expected: "Demo: " },
-    { str: 100, expected: "Demo: 100" },
-  ])("demo($str)", ({ str, expected }) => {
-    expect(demo(str)).toBe(expected);
-  });
+test("making new Table", () => {
+  let table = new Table();
+  expect(table instanceof Table).toBe(true);
 });
