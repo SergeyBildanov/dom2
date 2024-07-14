@@ -1,4 +1,5 @@
 # Webpack5
 
-[Руководство по настройке Webpack](https://webpack.js.org/guides/)
-[Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)
+[![Build status](https://ci.appveyor.com/api/projects/status/32r7s2skrgm9ubva?svg=true)](https://ci.appveyor.com/project/SergeyBildanov/dom1)
+
+[Ссылка на Github Pages](https://sergeybildanov.github.io/dom2/)
